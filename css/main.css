@@ -897,6 +897,15 @@ button::-moz-focus-inner {
 	.contact-number {
 		font-size: 2.6rem;
 	}
+	.contact-address {
+		font-size: 2.4rem;
+	}
+	.contact-social {
+		font-size: 2.8rem;
+	}
+	.cl-copyright {
+		margin-top: 3rem;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	.contact-email {
@@ -905,11 +914,23 @@ button::-moz-focus-inner {
 	.contact-number {
 		font-size: 2.4rem;
 	}
+	.contact-address {
+		font-size: 2.1rem;
+	}
+	.contact-social {
+		font-size: 2.4rem;
+	}
 }
 @media only screen and (max-width: 800px) {
 	.s-contact {
 		padding-top: 12rem;
 		padding-bottom: 9rem;
+	}
+	.contact-secondary, .cl-copyright {
+		padding-right: 7.8rem;
+	}
+	.contact-secondary {
+		margin-bottom: 1.5rem;
 	}
 	.contact-email {
 		font-size: 2.6rem;
@@ -917,20 +938,23 @@ button::-moz-focus-inner {
 	.contact-number {
 		font-size: 2rem;
 	}
+	.contact-address {
+		font-size: 2rem;
+	}
 	.cl-go-top {
 		right: 35px;
 		bottom: 9rem;
 	}
 	.cl-go-top a {
-		height: 88px;
-		width: 88px;
-		line-height: 10%;
+		height: 48px;
+		width: 48px;
+		line-height: 48px;
 	}
 	.cl-go-top a i {
 		font-size: 18px;
 	}
 	.cl-go-top::after {
-		font-size: 4.1rem;
+		font-size: 1.1rem;
 		left: calc(24px + 15px);
 	}
 }
@@ -946,6 +970,12 @@ button::-moz-focus-inner {
 	}
 	.contact-number {
 		font-size: 1.8rem;
+	}
+	.contact-address {
+		font-size: 1.8rem;
+	}
+	.contact-social {
+		font-size: 2rem;
 	}
 	.cl-go-top {
 		right: 25px;
