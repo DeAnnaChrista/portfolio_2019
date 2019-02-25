@@ -1153,3 +1153,32 @@ color:black !important;
 .card_content p {
   flex: 1 0 auto;
 }
+
+.s-media{
+ position: fixed;
+ top: 30% ;
+ left: 0;
+ z-index: 9999;
+ transition:all linear 0.2s ;
+}
+.s-media a:first-child{
+    border-radius: 0 5px 0 0;
+}
+.s-media a:last-child{
+    border-radius: 0 0 5px 0;
+}
+.s-item {
+    display:block;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+
+    transition:all linear 0.2s ;
+}
+.s-item:hover {
+    width:70px;
+
+}
